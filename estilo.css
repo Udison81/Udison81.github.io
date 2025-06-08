@@ -5,7 +5,12 @@ body {
 h1 {
     color: #3D3D3D;
     background-color: #E1EDF2;
+<<<<<<< HEAD
+    padding: 0px 00px 00px 00px;
+    
+=======
     padding: 16px;
+>>>>>>> 1b3ba1556c7b37524ce72c93a41d0adbb511a3aa
 }
 
 h2 {
@@ -17,6 +22,15 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+    background-color: whitesmoke;
+
+figcaption {
+    color: lightgrey;
+}
+    
+    
+=======
     background: whitesmoke;
     padding: 16px;
     margin: 24px 0;
@@ -25,4 +39,5 @@ figure {
 figcaption {
     color: lightgrey;
     font-size: 0.8em;
+>>>>>>> 1b3ba1556c7b37524ce72c93a41d0adbb511a3aa
 }
