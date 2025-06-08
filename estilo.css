@@ -1,20 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica", sans-serif;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    background: #fff;
 }
 
 h1 {
     color: #3D3D3D;
     background-color: #E1EDF2;
-<<<<<<< HEAD
-    padding: 0px 00px 00px 00px;
-    
-=======
-    padding: 16px;
->>>>>>> 1b3ba1556c7b37524ce72c93a41d0adbb511a3aa
+    padding: 10px;
 }
 
 h2 {
-    border-bottom: 2px solid #3D3D3D;
+    border-bottom: 1px solid #3D3D3D;
     padding-bottom: 4px;
 }
 
@@ -22,22 +21,26 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-    background-color: whitesmoke;
-
-figcaption {
+    background: #f8f8f8;
     color: lightgrey;
-}
-    
-    
-=======
-    background: whitesmoke;
-    padding: 16px;
-    margin: 24px 0;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
-figcaption {
-    color: lightgrey;
-    font-size: 0.8em;
->>>>>>> 1b3ba1556c7b37524ce72c93a41d0adbb511a3aa
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+}
+
